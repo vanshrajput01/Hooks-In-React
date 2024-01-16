@@ -22,7 +22,11 @@ function RegistrationForm(){
             <button onClick={seeData}>See data</button>
             <input type="reset" />
         </form>
-        <p id="data"></p>
+        <p id="data" style={
+            {
+                color : "red"
+            }
+        }></p>
 
         
         </>
