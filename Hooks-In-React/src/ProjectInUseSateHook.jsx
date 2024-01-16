@@ -9,7 +9,16 @@ function ProjectInUseSateHook() {
     const seeImage = (e) =>{
         e.preventDefault()
         const imageContainer = document.querySelector("#image-container")
-        imageContainer.children[0].setAttribute("src",input)
+        const imageElement = document.createElement("img");
+        imageElement.src = input
+        imageElement.alt = "Please Enter valid Url in input Box"
+        imageElement.style.width = "200px"
+        imageElement.style.marginRight = "20px"
+        imageElement.style.borderRadius = "15px" 
+        imageContainer.appendChild(imageElement)
+        
+        
+
                 
     }
     return (
@@ -23,10 +32,16 @@ function ProjectInUseSateHook() {
                 <input type="reset" value="Reset Url" />
 
             </form>
-            <br></br>
-            <div id="image-container">
-                <Images />
+            <div id="image-container" style={
+                {
+                    paddingRight : "20px"
+                
+                }
+            }>
+
             </div>
+
+
            
             
 
