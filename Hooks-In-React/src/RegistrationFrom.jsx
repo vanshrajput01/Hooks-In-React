@@ -24,7 +24,8 @@ function RegistrationForm(){
         </form>
         <p id="data" style={
             {
-                color : "red"
+                color : "red",
+                fontSize : "x-large"
             }
         }></p>
 
