@@ -1,5 +1,6 @@
 import Images from "./Images";
 import { useState } from "react";
+import './ProjectInUseStateHook.css'
 
 function ProjectInUseSateHook() {
     const [input, setInput] = useState("")
@@ -27,14 +28,15 @@ function ProjectInUseSateHook() {
             <h2>Project In Use state Hook in React</h2>
             <form onSubmit={seeImage}>
                 <input type="text" placeholder="Enter Url Only" required onChange={inputHandler} />
-                <br></br>
+                <div>
                 <input type="submit" value="See image" />
                 <input type="reset" value="Reset Url" />
+                </div>
 
             </form>
             <div id="image-container" style={
                 {
-                    paddingRight : "20px"
+                    marginTop : "30px"
                 
                 }
             }>
