@@ -23,6 +23,7 @@ function ProjectInUseSateHook() {
                 <input type="reset" value="Reset Url" />
 
             </form>
+            <br></br>
             <div id="image-container">
                 <Images />
             </div>
