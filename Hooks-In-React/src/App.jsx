@@ -1,3 +1,4 @@
+import RegistrationForm from "./RegistrationFrom"
 import { Counter } from "./counter"
 
 function App() {
@@ -6,7 +7,10 @@ function App() {
     <>
     <h1>Hook in React</h1>
     {/* Use State Hook */}
-    <Counter />
+    {/* <Counter /> */}
+    <RegistrationForm />
+
+
     </>
 
   )
