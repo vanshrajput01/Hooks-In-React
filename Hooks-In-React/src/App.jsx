@@ -8,7 +8,7 @@ function App() {
     <h1>Hook in React</h1>
     {/* Use State Hook */}
     {/* <Counter /> */}
-    <RegistrationForm />
+    {/* <RegistrationForm /> */}
 
 
     </>
