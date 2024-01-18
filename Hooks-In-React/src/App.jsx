@@ -1,7 +1,9 @@
-import Project02OnHook from "./Project02OnHook"
+// import Project02OnHook from "./Project02OnHook"
 // import ProjectInUseSateHook from "./ProjectInUseSateHook"
 // import RegistrationForm from "./RegistrationFrom"
 // import { Counter } from "./counter"
+
+import Project03OnHooks from "./Project03OnHooks"
 
 function App() {
 
@@ -12,7 +14,8 @@ function App() {
     {/* <Counter /> */}
     {/* <RegistrationForm /> */}
     {/* <ProjectInUseSateHook /> */}
-    <Project02OnHook />
+    {/* <Project02OnHook /> */}
+    <Project03OnHooks />
 
 
     </>
