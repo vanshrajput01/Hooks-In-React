@@ -1,7 +1,7 @@
 function Project02OnHook(){
     return (
         <>
-        <h1>Project 02 ON Hooks
+        <h1>Project 02 On Hooks
         </h1>
         </>
     )
